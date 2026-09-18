@@ -9,7 +9,7 @@ public class Food : MonoBehaviour
 
     void Update()
     {
-        transform.position += (Vector3.down * Time.deltaTime);
+        transform.position += (Vector3.down * Time.deltaTime * 2);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
